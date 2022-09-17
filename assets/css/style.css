@@ -1,0 +1,106 @@
+h1 {    
+    background-color: rgb(147, 218, 214);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 30px;
+}
+
+li {
+    color: black;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 1.25rem;
+    list-style-type: none;
+    display: inline-flex;
+    
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color:rgb(147, 218, 214);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+    .row, nav {
+        flex-direction: column;        
+    }
+}
+
+.side {
+    flex: 30%;
+    padding: 15px;
+}
+
+.main {
+    flex:70%;
+    padding: 15px;
+}
+
+h3 {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.contact-me {
+    font-size: 1.1rem;    
+}
+
+h4 {
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 7px 0;
+    display: flex;
+    border: 1px solid rgb(67, 177, 171);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+textarea[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 7px 0;
+    display: flex;
+    border: 1px solid rgb(67, 177, 171);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(67, 177, 171);
+    color: white;
+    padding: 14px 20px;
+    margin: 7px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: rgb(94, 184, 179);
+  }
+
+footer {
+    text-align: center;
+    font-size: 1.25rem;
+    background-color: rgb(147, 218, 214);
+    padding: 10px;
+    
+}
