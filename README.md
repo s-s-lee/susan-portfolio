@@ -8,22 +8,22 @@ For potential employers to review Susan Lee's portfolio. This website includes m
 
 Link to [Susan's Portfolio](https://s-s-lee.github.io/susan-portfolio/)
 
-<img src="./assets/images/susans-portfolio-screenshot.png" alt="screenshot of Susan's portfolio">
+<img src="./assets/images/susans-portfolio-screenshot-1.png" alt="screenshot of Susan's portfolio">
 
 
 ## Projects I worked on
+
+### [Ars Animatio](https://github.com/RahsanLewis/ARS-Animatio/)
+
+Created a search engine site that searches GIPHY for a GIF and a random programming joke from a Geek Jokes API.
+
+<img src="./assets/images/ars-animatio-screenshot.png" alt="image of Ars Animatio's website">
 
 ### [Horiseon](https://s-s-lee.github.io/code-refactor/)
 
 Updated a marketing agency's website to meet accessibility standards.
 
 <img src="./assets/images/horiseon-website-screenshot.png" alt="image of Horiseon's website">
-
-### [Aquarium](https://s-s-lee.github.io/code-refactor/)
-
-Due to a work conference, I missed attending the first 2 classes on JavaScript. However, I got to visit the Georgia Aquarium which is home to two grey sharks &#128011; &#129416;, manta rays, and sting rays!
-
-<img src="./assets/images/aquarium.jpg" alt="image of an aquarium with a whale shark and many fish">
 
 ### [Origami Sculpture](https://s-s-lee.github.io/code-refactor/)
 
