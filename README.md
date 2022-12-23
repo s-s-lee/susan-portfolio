@@ -15,6 +15,12 @@ Link to [Susan's Portfolio](https://s-s-lee.github.io/susan-portfolio/)
 
 ## Projects I worked on
 
+### [Gritty Wear](https://grittywear.herokuapp.com//)
+
+Gritty Wear offers the best Gritty gear for you and your loved ones without paying a premium price AND the chance to get a discount code if you beat Gritty in a game!
+
+<img src="./assets/images/gritty-wear-screenshot.png" alt="image of the Gritty Wear merch website">
+
 ### [Ars Animatio](https://github.com/RahsanLewis/ARS-Animatio/)
 
 Created a search engine site that searches GIPHY for a GIF and a random programming joke from a Geek Jokes API.
@@ -27,11 +33,6 @@ Updated a marketing agency's website to meet accessibility standards.
 
 <img src="./assets/images/horiseon-website-screenshot.png" alt="image of Horiseon's website">
 
-### [Origami Sculpture](https://s-s-lee.github.io/code-refactor/)
-
-I also visited the Atlanta Botanical Gardens and felt refreshed by nature. They had beautiful origami sculptures all throughout the garden.
-
-<img src="./assets/images/origami-sculpture.jpg" alt="image of an origami sculpture in a botanical garden with a city skyline in the background">
 
 ## Technology that I want to specialize in
 
