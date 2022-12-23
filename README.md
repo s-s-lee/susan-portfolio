@@ -19,6 +19,8 @@ Link to [Susan's Portfolio](https://s-s-lee.github.io/susan-portfolio/)
 
 Gritty Wear offers the best Gritty gear for you and your loved ones without paying a premium price AND the chance to get a discount code if you beat Gritty in a game!
 
+Mobile friendly e-commerce site that uses the Stripe API to process discount codes and to securely checkout.
+
 <img src="./assets/images/gritty-wear-screenshot.png" alt="image of the Gritty Wear merch website">
 
 ### [Ars Animatio](https://github.com/RahsanLewis/ARS-Animatio/)
