@@ -2,7 +2,9 @@
 
 ## Description
 
-For potential employers to review Susan Lee's portfolio. This website includes my past projects, resume, and contact info.
+Hey, I'm Susan Lee. I currently live in Philadelphia, PA and I work with clinical drug trials for children with GI diseases caused by food allergies. However, I finally decided to take a leap and join a coding bootcamp. I'm excited to switch gears and hopefully become a full-stack web developer.
+
+My portfolio site includes my past projects, resume, and contact info.
 
 ## Portfolio
 
