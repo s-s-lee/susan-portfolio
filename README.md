@@ -2,7 +2,7 @@
 
 ## Description
 
-Hey, I'm Susan Lee. I currently live in Philadelphia, PA and I work with clinical drug trials for children with GI diseases caused by food allergies. However, I finally decided to take a leap and join a coding bootcamp. I'm excited to switch gears and hopefully become a full-stack web developer.
+Hey, I'm Susan Lee. I currently live in Philadelphia, PA and I work with clinical drug trials for children with GI diseases caused by food allergies. However, I finally decided to pursue my true interests and joined a full-stack coding bootcamp. I'm excited to switch gears and become a full-stack web developer!
 
 My portfolio site includes my past projects, resume, and contact info.
 
@@ -15,7 +15,13 @@ Link to [Susan's Portfolio](https://s-s-lee.github.io/susan-portfolio/)
 
 ## Projects I worked on
 
-### [Gritty Wear](https://grittywear.herokuapp.com//)
+### [Study Buddy](https://study-buddy-dream-team.herokuapp.com/)
+
+Study Buddy is a web app to help students and other learners keep track of their notes by using notecards and card decks. 
+
+<img src="./assets/images/study-buddy-screenshot.png" alt="image of the Study Buddy website">
+
+### [Gritty Wear](https://grittywear.herokuapp.com/)
 
 Gritty Wear offers the best Gritty gear for you and your loved ones without paying a premium price AND the chance to get a discount code if you beat Gritty in a game!
 
@@ -29,17 +35,14 @@ Created a search engine site that searches GIPHY for a GIF and a random programm
 
 <img src="./assets/images/ars-animatio-screenshot.png" alt="image of Ars Animatio's website">
 
-### [Horiseon](https://s-s-lee.github.io/code-refactor/)
+## Technology that I frequent
 
-Updated a marketing agency's website to meet accessibility standards.
-
-<img src="./assets/images/horiseon-website-screenshot.png" alt="image of Horiseon's website">
-
-
-## Technology that I want to specialize in
-
-So far, I am hoping to specialize in React, Node, and JavaScript!
+React, Node, and JavaScript are favorites. I'm also familiar with Bootstrap, SQL, jQuery, PWAs, NoSQL, MongoDB, GraphQL, Stripe, and Python.
 
 ## Licensing
 
 The code in this project is licensed under the [MIT License](https://github.com/s-s-lee/susan-portfolio/blob/main/LICENSE).
+
+## Contact Info
+
+For questions, contact Susan at sohzahn@gmail.com
