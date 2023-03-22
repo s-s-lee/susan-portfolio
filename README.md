@@ -2,7 +2,9 @@
 
 ## Description
 
-Hey, I'm Susan Lee. I currently live in Philadelphia, PA and I work with clinical drug trials for children with GI diseases caused by food allergies. However, I finally decided to pursue my true interests and joined a full-stack coding bootcamp. I'm excited to switch gears and become a full-stack web developer!
+Hey, I'm Susan Lee and I'm a Philadelphia-based full-stack web developer! 
+
+Some examples of my work are below. I created all of the wireframes for these sites. Email me at sohzahn@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/susan-l-9074b523b/). I look forward to speaking with you! &#127800;
 
 My portfolio site includes my past projects, resume, and contact info.
 
@@ -10,7 +12,7 @@ My portfolio site includes my past projects, resume, and contact info.
 
 Link to [Susan's Portfolio](https://s-s-lee.github.io/susan-portfolio/)
 
-<img src="./assets/images/susans-portfolio-screenshot-1.png" alt="screenshot of Susan's portfolio">
+<img src="./assets/images/susans-portfolio-screenshot-2.png" alt="screenshot of Susan's portfolio">
 
 
 ## Projects I worked on
@@ -19,7 +21,7 @@ Link to [Susan's Portfolio](https://s-s-lee.github.io/susan-portfolio/)
 
 Study Buddy is a web app to help students and other learners keep track of their notes by using notecards and card decks. 
 
-<img src="./assets/images/study-buddy-screenshot.png" alt="image of the Study Buddy website">
+<img src="./assets/images/study-buddy-screenshot-2.png" alt="image of the Study Buddy website">
 
 ### [Gritty Wear](https://grittywear.herokuapp.com/)
 

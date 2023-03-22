@@ -2,151 +2,190 @@
 <html lang="en-US">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
-    <title>Susan Lee's Portfolio</title>
-    <!-- <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico"/> -->
-    <!-- favicon aka browser tab icon needs to work -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Susan Lee's Portfolio</title>
+  <!-- <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico"/> -->
+  <!-- favicon aka browser tab icon needs to work -->
 </head>
 
 <body>
-    <header>
-        <h1>Susan Lee</h1>
-        <nav class="navbar navbar-expand-sm sticky-top justify-content-center">
-            <!-- eventually, lets make this a dropdown -->
-            <ul class="navbar-nav">
-                <li class="nav-item"><a href="#about-me">About me</a></li>
-                <li class="nav-item"><a href="#work">Work</a></li>
-                <li class="nav-item"><a href="#contact-me">Contact Me</a></li>
-                <li class="nav-item"><a href="#resume">Resume</a></li>
-                <li class="nav-item"><a href="#contact-form">Contact Form</a></li>
-            </ul>
-        </nav>
-    </header>
+  <h1 class="pt-4" style="font-weight:600">Susan Lee</h1>
+  <h4 style="font-weight:300">a full-stack web developer with a background in healthcare & research</h4>
+  <header>
+    <nav class="navbar navbar-light navbar-expand-sm" style="background-color: #93dad6bb;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<main>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#about-me">About me</a></li>
+          <li class="nav-item"><a href="#work">My Work</a></li>
+          <li class="nav-item"><a href="#tech">Tech I've Learned</a></li>
+          <li class="nav-item"><a href="#contact-me">Contact Me</a></li>
+          <li class="nav-item"><a href="#resume">Resume</a></li>
+          <!-- <li class="nav-item"><a href="#contact-form">Contact Form</a></li> -->
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
     <div class="container">
-        <div class="row">
-            <div class="main">
-                <section class="about-me">
-                    <h3>About me</h3>
-                        <p> Hey, I'm Susan Lee. I currently live in Philadelphia, PA and I work with clinical drug trials for children with GI diseases caused by food allergies. However, I finally decided to pursue my true interests and joined a full-stack coding bootcamp. I'm excited to switch gears and become a full-stack web developer! <br>
-                            <div class="text-center">
-                            <img src="./assets/images/photo-of-susan.jpg" alt="photo of Susan" style="width:250px;" class="img-thumbnail">
-                            </div>
-                            <br>
-                        Some examples of my work are below. Email me at sohzahn@gmail.com to connect with me. Looking forward to speaking with you!
-                        </p>
-                </section>
-                <section class="work">
-                    <h3 id="work">My Work</h3>
-                    <div class="container">
-                    <div class="bd-example">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                          <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                          </ol>
-                          <div class="carousel-inner">
-                            <div class="carousel-item active">
-                              <img src="./assets/images/gritty-wear-screenshot.png" class="d-block w-100" alt="image of Gritty Wear merch website">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./assets/images/study-buddy-screenshot.png" class="d-block w-100" alt="image of Study Buddy's website">
-                            </div>
-                            <div class="carousel-item">
-                              <img src="./assets/images/ars-animatio-screenshot.png" class="d-block w-100" alt="image of Ars Animatio's website">
-                            </div>
-                          </div>
-                          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                          </a>
-                          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                          </a>
-                        </div>
-                      </div>
-                      </div>
-                    <p>
-                        <h4>Gritty Wear</h4>
-                        <a href="https://github.com/rktvpr/Gritty-Wear">
-                        <img src="./assets/images/gritty-wear-screenshot.png" alt="image of the Gritty Wear merch website" style="width:100%"></a>
-                        <div class="row">
-                            <div class="col">
-                              <h4>Study Buddy</h4>
-                              <a href="https://github.com/EliasAllan/study-buddy/">
-                              <img src="./assets/images/study-buddy-screenshot.png" alt="image of Study Buddy's website" style="width:100%"></a>
-                            </div>
-                            <div class="col">
-                              <h4>Ars Animatio</h4>
-                              <a href="https://github.com/RahsanLewis/ARS-Animatio/">
-                              <img src="./assets/images/ars-animatio-screenshot.png" alt="image of Ars Animatio's website" style="width:100%"></a>
-                            </div>
-                          </div>
-                    </p>
-                </section>
-                
-                <section class="contact-me">
-                    <h3 id="contact-me">Contact Me</h3>
-                    <dl class="row">
-                        <dt class="col-sm-3">&#128231; Email</dt>
-                        <dd class="col-sm-9"><a href="mailto:sohzahn@gmail.com">sohzahn@gmail.com</a></dd>
-                        <dt class="col-sm-3">&#128187; GitHub</dt>
-                        <dd class="col-sm-9"><a href="https://github.com/s-s-lee">https://github.com/s-s-lee</a></dd>
-                        <dt class="col-sm-3">&#128188; Resume</dt>
-                        <dd class="col-sm-9"><a href="/assets/uploads/susan-lee-resume-2023.pdf">Susan's Resume</a></dd>
-                    </dl>                    
-                </section>
+      <div class="row">
+        <div class="main">
+          <section class="about-me">
+            <h2 class="p-3">About me</h2>
+            <div class="container">
+              <div class="row" style="text-align-last: center; align-items: center;">
+                <div class="col-sm-3">
+                  <img src="./assets/images/photo-of-susan.jpg" alt="photo of Susan" style="width:250px;"
+                    class="img-thumbnail">
+                </div>
+                <div class="col-sm-9 text-center">
+                  <p style="font-size: 1.15rem;"> Hey, I'm Susan Lee and I'm a Philadelphia-based full-stack web
+                    developer! <br><br>Some examples of my work are below. I created all of the wireframes for these
+                    sites. Email me at <a href="mailto: sohzahn@gmail.com">sohzahn@gmail.com</a> or connect with me on
+                    <a href="https://www.linkedin.com/in/susan-l-9074b523b/">LinkedIn</a>.
+                    <br><br>I look forward to speaking with you! &#127800;
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
 
+          <section class="work">
+            <h2 class="p-3" id="work">My Work</h2>
+            <hr>
+            <div class="container">
+              <div class="bd-example">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./assets/images/gritty-wear-screenshot.png" class="d-block w-100"
+                        alt="image of Gritty Wear merch website">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./assets/images/study-buddy-screenshot-2.png" class="d-block w-100"
+                        alt="image of Study Buddy's website">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./assets/images/ars-animatio-screenshot.png" class="d-block w-100"
+                        alt="image of Ars Animatio's website">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
             </div>
-            <div class="side">                
-                <section class="contact-form">
-                    <h3>Contact Form</h3>
-                    <!--Need to make this form work and to follow the breakpoint-->
-                    <form>
-                      <div class="form-group">
-                        <label for="username">Name:</label>
-                        <input id="username" type="text" class="form-control" placeholder="Your name">
-                      </div>
-                      <div class="form-group">
-                        <label for="email">E-mail:</label>
-                        <input id="email" type="text" class="form-control" placeholder="email@domain.com">
-                      </div>
-                      <div class="form-group">
-                        <label for="comments">Comments:</label>
-                        <textarea id="comments" type="text" class="form-control" placeholder="Let's chat!"></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </section>
+            <!-- <p>
+            <h4>Gritty Wear</h4>
+            <a href="https://github.com/rktvpr/Gritty-Wear">
+              <img src="./assets/images/gritty-wear-screenshot.png" alt="image of the Gritty Wear merch website"
+                style="width:100%"></a>
+            <div class="row">
+              <div class="col">
+                <h4>Study Buddy</h4>
+                <a href="https://github.com/EliasAllan/study-buddy/">
+                  <img src="./assets/images/study-buddy-screenshot.png" alt="image of Study Buddy's website"
+                    style="width:100%"></a>
+              </div>
+              <div class="col">
+                <h4>Ars Animatio</h4>
+                <a href="https://github.com/RahsanLewis/ARS-Animatio/">
+                  <img src="./assets/images/ars-animatio-screenshot.png" alt="image of Ars Animatio's website"
+                    style="width:100%"></a>
+              </div>
             </div>
+            </p> -->
+          </section>
+          <hr>
+          <section class="skills text-center">
+            <h2 class="p-3">Tech I've Learned</h2>
+            <p class="px-5">HTML, CSS, JavaScript, jQuery, JSON, Bootstrap, Handlebars, SQL, MySQL, NoSQL, Node.js, REST
+              APIs, PWAs, React.js, Express.js, MongoDB, GraphQL, Stripe, RegEx, Python, Git</p>
+          </section>
+          <section class="contact-me text-center">
+            <h2 class="p-3" id="contact-me">Contact Me</h2>
+            <ul class="list-group d-inline-flex">
+              <li class="list-group-item">&#128231; Email: <a href="mailto:sohzahn@gmail.com">sohzahn@gmail.com</a></li>
+              <li class="list-group-item">&#128187; GitHub: <a
+                  href="https://github.com/s-s-lee">https://github.com/s-s-lee</a></li>
+              <li class="list-group-item">&#128188; LinkedIn: <a
+                  href="https://www.linkedin.com/in/susan-l-9074b523b/">https://www.linkedin.com/in/susan-l-9074b523b/</a>
+              </li>
+              <li class="list-group-item">&#128195; Resume: <a href="/assets/uploads/susan-lee-resume-2023.pdf">Susan's
+                  Resume</a></li>
+            </ul>
+          </section>
         </div>
+        <!-- <div class="side">
+          <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+              <div class="form-group">
+                <label for="username">Name:</label>
+                <input id="username" type="text" class="form-control" placeholder="Your name">
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input id="email" type="text" class="form-control" placeholder="email@domain.com">
+              </div>
+              <div class="form-group">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" type="text" class="form-control" placeholder="Let's chat!"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </section>
+        </div> -->
+      </div>
 
-  
-   <section class="Resume">
-        <h3 id="resume">Resume</h3>
-            <object width="100%" height="600px" data="assets/uploads/susan-lee-resume-2023.pdf"></object>
-    </section>
-</div>
-</main>
-<hr>
 
-<footer>
-    <p>Thank you for visiting my portfolio!</p>
+      <section class="Resume">
+        <h2 class="p-3" id="resume">Resume</h2>
+        <object width="100%" height="600px" data="assets/uploads/susan-lee-resume-2023.pdf"></object>
+      </section>
+    </div>
+  </main>
+
+
+  <footer>
+    <h5>Thank you for visiting my portfolio!</h5>
     <p><a href="#top">Back to top</a></p>
-</footer>
+  </footer>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
