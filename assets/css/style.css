@@ -1,13 +1,29 @@
-h1 {    
-    background-color: rgba(147, 218, 214, 0.733);
-    font-family: 'DM Serif Display', serif;
-    padding: 30px;
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
     text-align: center;
 }
 
-li a {
+h4 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+
+h5 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 100;
+}
+
+header a {
+    font-family: 'Raleway', sans-serif;
     color: black;
-    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+}
+
+li {
+    color: black;
+    font-family: 'Libre Baskerville', serif;
     font-size: 1.25rem;
     list-style-type: none;
     display: inline-flex;
@@ -15,47 +31,22 @@ li a {
     padding: 10px 10px;
 }
 
-li a:hover {
-    color:rgb(147, 218, 214);
-}
-
-.row {
+/* .row {
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
-@media (max-width: 700px) {
-    .row, nav {
-        flex-direction: column;
-    }
-}
-
-.side {
-    flex: 25%;
+/* section {
     padding: 15px;
-}
-
-.main {
-    flex: 75%;
-    padding: 15px;
-}
-
-h3 {
-    font-family: 'DM Serif Display', serif;
-    font-style: italic;
-}
+} */
 
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 1rem;
 }
 
 .contact-me {
     font-size: 1.1rem;    
-}
-
-h4 {
-    text-align: center;
 }
 
 input[type=text], select {
@@ -97,6 +88,6 @@ footer {
     text-align: center;
     font-size: 1.25rem;
     background-color: rgb(147, 218, 214);
-    padding: 10px;
+    padding: 20px;
     
 }
