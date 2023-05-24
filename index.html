@@ -38,33 +38,34 @@
         </ul>
       </div>
     </nav>
+    <!-- <div data-bs-spy="scroll" data-bs-target="#navbar" class="scrollspy">
+
+    </div> -->
   </header>
 
   <main>
     <div class="container">
       <div class="row">
         <div class="main">
-          <section class="about-me">
-            <h2 class="p-3">About me</h2>
+          <section class="about-me py-3">
+            <h2 class="">About me</h2>
             <div class="container">
-              <div class="row" style="text-align-last: center; align-items: center;">
-                <div class="col-sm-3">
+              <div class="row" style="text-align: center; align-items: center;">
+                <div class="col-sm-3 mb-3">
                   <img src="./assets/images/photo-of-susan.jpg" alt="photo of Susan" style="width:250px;"
                     class="img-thumbnail">
                 </div>
-                <div class="col-sm-9 text-center">
-                  <p style="font-size: 1.15rem;"> Hey, I'm Susan Lee and I'm a Philadelphia-based full-stack web developer! <br><br> Some examples of my work are below. I created all of the wireframes for these sites. Email me at <a href="mailto: sohzahn@gmail.com">sohzahn@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/susan-l-9074b523b/">LinkedIn</a>.<br><br>I look forward to speaking with you! &#127800;
+                <div class="col text-center">
+                  <p class="px-3"> Hey, I'm Susan Lee and I'm a Philadelphia-based full-stack web developer! <br><br> Some examples of my work are below. I created all of the wireframes for these sites. Email me at <a href="mailto: sohzahn@gmail.com">sohzahn@gmail.com</a> or connect with me on <a href="https://www.linkedin.com/in/susan-l-9074b523b/">LinkedIn</a>.<br><br>I look forward to speaking with you! &#127800;
                   </p>
                 </div>
               </div>
             </div>
           </section>
-
-          <section class="work">
-            <h2 class="p-3" id="work">My Work</h2>
-            <hr>
-            <div class="container">
-              <div class="bd-example">
+          <hr>
+          <section class="work py-3">
+            <h2 class="py-3" id="work">My Work</h2>            
+            <div class="container">              
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -93,8 +94,7 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                   </a>
-                </div>
-              </div>
+                </div>              
             </div>
             <!-- <p>
             <h4>Gritty Wear</h4>
@@ -118,14 +118,15 @@
             </p> -->
           </section>
           <hr>
-          <section class="skills text-center">
-            <h2 class="p-3" id="skills">Tech I've Learned</h2>
+          <section class="skills py-3 text-center">
+            <h2 class="py-3" id="skills">Tech I've Learned</h2>
             <p class="px-5">HTML, CSS, JavaScript, jQuery, JSON, Bootstrap, Handlebars, SQL, MySQL, NoSQL, Node.js, REST
               APIs, PWAs, React.js, Express.js, MongoDB, GraphQL, Stripe, RegEx, Python, Git</p>
           </section>
-          <section class="contact-me text-center">
-            <h2 class="p-3" id="contact-me">Contact Me</h2>
-            <ul class="list-group d-inline-flex">
+          <hr>
+          <section class="contact-me p-3 text-center">
+            <h2 class="p-3 mx-3" id="contact-me">Contact Me</h2>
+            <ul class="list-group list-group-flush d-inline-flex">
               <li class="list-group-item">&#128231; Email: <a href="mailto:sohzahn@gmail.com">sohzahn@gmail.com</a></li>
               <li class="list-group-item">&#128187; GitHub: <a
                   href="https://github.com/s-s-lee">https://github.com/s-s-lee</a></li>
@@ -136,7 +137,13 @@
                   Resume</a></li>
             </ul>
           </section>
+          <hr>
+          <section class="resume py-3">
+            <h2 class="py-3" id="resume">Resume</h2>
+            <object width="100%" height="600px" data="assets/uploads/susan-lee-resume-2023.pdf"></object>
+          </section>
         </div>
+        
         <!-- <div class="side">
           <section class="contact-form">
             <h2>Contact Form</h2>
@@ -158,12 +165,6 @@
           </section>
         </div> -->
       </div>
-
-
-      <section class="Resume">
-        <h2 class="p-3" id="resume">Resume</h2>
-        <object width="100%" height="600px" data="assets/uploads/susan-lee-resume-2023.pdf"></object>
-      </section>
     </div>
   </main>
 
