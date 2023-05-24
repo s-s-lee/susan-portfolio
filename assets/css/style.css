@@ -3,6 +3,10 @@ h1, h2, h3 {
     text-align: center;
 }
 
+h2 {
+    margin-top: 2em;
+}
+
 h4 {
     font-family: 'Raleway', sans-serif;
     text-align: center;
